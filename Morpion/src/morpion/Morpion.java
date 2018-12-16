@@ -19,8 +19,9 @@ public class Morpion {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Controlleur ctrl = new Controlleur();
-        Vue vue = new Vue();
+         Vue vue = new Vue();
+         Controlleur ctrl = new Controlleur(vue);
+       
         
     }
     
